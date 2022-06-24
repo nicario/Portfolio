@@ -1,9 +1,10 @@
 *{
   text-decoration: none;
   list-style-type: none;
+  font-family: 'Roboto', sans-serif;
 }
 body {
-  font-family: 'Roboto', sans-serif;
+  
   margin: 0;
   padding: 0;
 }
@@ -11,7 +12,7 @@ body {
 .nav {
   position:fixed;
   top: 0;
-  background-color: #A02424;
+  background-color: #FAB407;
   width: 100%;
   height: 64px;
   padding: 0;
@@ -24,6 +25,7 @@ body {
   align-items:flex-end;
   flex-direction: row;
   width: 100%;
+  margin-left: 86px;
 }
 
 .img__nav {
@@ -34,6 +36,7 @@ body {
 .ul__divnav {
   display: flex;
   justify-content: space-evenly;
+  margin-right: 64px;
 }
 
 
@@ -46,11 +49,12 @@ body {
   margin-right: 10px;
   padding-top: 60px;
   text-align: center;
+  font-weight: bold;
 }
 
 .a__nav{
-  color: #AD7EDC;
-  border-bottom: 1px solid #AD7EDC;
+  color: #DF0009;
+  border-bottom: 2px solid #DF0009;
 }
 
 .img__header {
@@ -61,142 +65,101 @@ body {
 
 /*main*/
 
-.main {
-  padding: 16px;
-  margin-top: 72px;
-}
-.h1__main {
-  text-align: center;
-  margin-top: 32px;
-  margin-bottom: 32px;
-  font-weight: bold;
-}
+  .main {
+    margin: 0 32px;
+  }
+  
+  .h2 {
+    margin-top: 96px;
+  }
+  
+  .h2__main {
+    margin-bottom: 32px;
+    font-family: 'Staatliches', cursive;
+    font-weight: bold;
+    font-size: 36px;
+  }
 
-.article__main {
-  display: flex;
-  flex-direction: row;
-}
+  .div__main {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+  }
 
-.div__main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 32px;
-  background-color: #EEEBEB;
-  border: 1px solid #A02424;
-  box-shadow:5px 5px 10px 0px #000000;
-  border-radius: 12px;
-  margin-right: 24px;
-  height: 70rem;
-  width: 100rem;
-}
+  .p__main1 {
+    width: 133.99px;
+    height: auto;
+    font-size: 12px;
+    text-align: top;
+  }
 
-.div__main1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #EEEBEB;
-  border: 1px solid #A02424;
-  box-shadow:5px 5px 10px 0px #000000;
-  border-radius: 12px;
-  height: 70rem;
-  width: 100rem;
-}
+  .img__main {
+    width: 135px;
+    height: 137px; 
+  }
 
-.img__main {
-  width: 13rem;
-  margin: 12px;
-}
+  .article2__main {
+  }
 
-.img__main1 {
-  width: 13.5rem;
-  margin: 12px;
-}
+  .habilidades__texto {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap ;
+    width: 119px;
+  }
 
-.p__main1 {
-  margin-top: 32px;
-  margin-right: 12px;
-  margin-left: 12px;
-}
+  .habilidades__bola {
+    background-color: #D9D9D9;
+    width: 10.72px;
+    height: 8.83px;
+    border-radius: 100%;
+    margin-right: 12.26px; 
+  }
 
-.p__main2 {
-  margin-top: 32px;
-  margin-right: 12px;
-  margin-left: 12px;
-}
+  .div__habilidades {
+    display: flex;
+    align-items: center;
+  }
 
+  .habilidades {
+    display: flex;
+    flex-direction: column;
+    line-height: 0%;
+  }
+  
+  .habilidades2 {
+    display: flex;
+    align-items: center;
+  }
+
+  .bolinhas {
+    display: flex;
+  }
+
+  .preto {
+    background-color: black;
+  }
 /*footer*/
 
 .footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #A02424;
+  background-color: #FAB407;
   width: 100%;
   height: 64px;
 }
 
 .img__footer {
-  width: 65px;
-  height: 58px;
+  width: 86px;
+  height: 86px;
+  margin: 10px;
+  margin-left: 86px;
 }
 
 .h5__footer {
   padding-right: 20rem;
+  margin-right: 64px;
 }
 
-/*queries*/
-
-@media screen and (min-width: 960px) {
-  .nav {
-    height: 80px;
-  }
-
-  .a__nav,
-  .a__nav2,
-  .a__nav3 {
-    font-size: 24px;
-    margin-right: 32px;
-  }
-  .img__nav {
-    width: 80px;
-    height: 80px;
-    margin: 0;
-  }
-  .img__header {
-    padding: 0 64px;
-    height: 50rem;
-  }
-
-  /*main*/
-
-  .main {
-    padding: 0 64px;
-    margin-top: 84px;
-  }
-  .p__main1 {
-    margin: 32px;
-  }
-  .p__main2 {
-    margin: 32px;
-  }
-  .div__main,
-  .div__main1 {
-    margin: 32px;
-  }
-  .div__main1 {
-  }
-  .img__main {
-    width: 16rem;
-  }
-  .img__main1 {
-    width: 16.5rem;
-  }
-
-  /*footer*/
-
-  .img__footer{
-    width: 80px;
-  }
-  
-}
