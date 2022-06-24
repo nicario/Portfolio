@@ -87,7 +87,8 @@ body {
   box-shadow:5px 5px 10px 0px #000000;
   border-radius: 12px;
   margin-right: 24px;
-  height: 44.2rem;
+  height: 70rem;
+  width: 100rem;
 }
 
 .div__main1 {
@@ -98,7 +99,8 @@ body {
   border: 1px solid #A02424;
   box-shadow:5px 5px 10px 0px #000000;
   border-radius: 12px;
-  height: 44.2rem;
+  height: 70rem;
+  width: 100rem;
 }
 
 .img__main {
@@ -170,6 +172,7 @@ body {
 
   .main {
     padding: 0 64px;
+    margin-top: 84px;
   }
   .p__main1 {
     margin: 32px;
