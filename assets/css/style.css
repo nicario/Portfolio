@@ -4,13 +4,18 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .nav {
   position:fixed;
+  top: 0;
   background-color: #A02424;
   width: 100%;
   height: 64px;
+  padding: 0;
+  margin: 0;
 }
 
 .div__nav{
@@ -50,6 +55,7 @@ body {
 
 .img__header {
   width: 100%;
+  height: 15rem;
   padding: 0 16px;
 }
 
@@ -57,30 +63,64 @@ body {
 
 .main {
   padding: 16px;
+  margin-top: 64px;
 }
 .h1__main {
   text-align: center;
   margin-top: 32px;
   margin-bottom: 32px;
+  font-weight: bold;
 }
 
 .article__main {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .div__main {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 32px;
+  background-color: #EEEBEB;
+  border: 1px solid #A02424;
+  box-shadow:5px 5px 10px 0px #000000;
+  border-radius: 12px;
+  margin-right: 24px;
+  height: 44.2rem;
 }
 
 .div__main1 {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
+  align-items: center;
+  background-color: #EEEBEB;
+  border: 1px solid #A02424;
+  box-shadow:5px 5px 10px 0px #000000;
+  border-radius: 12px;
+  height: 44.2rem;
 }
 
 .img__main {
   width: 13rem;
+  margin: 12px;
+}
+
+.img__main1 {
+  width: 13.5rem;
+  margin: 12px;
+}
+
+.p__main1 {
+  margin-top: 32px;
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+.p__main2 {
+  margin-top: 32px;
+  margin-right: 12px;
+  margin-left: 12px;
 }
 
 /*footer*/
@@ -97,6 +137,10 @@ body {
 .img__footer {
   width: 65px;
   height: 58px;
+}
+
+.h5__footer {
+  padding-right: 20rem;
 }
 
 /*queries*/
@@ -128,20 +172,22 @@ body {
     padding: 0 64px;
   }
   .p__main1 {
-    padding-right: 300px;
+    margin: 32px;
   }
   .p__main2 {
-    padding-left: 300px;
+    margin: 32px;
   }
   .div__main,
   .div__main1 {
-    background-color: #EEEBEB;
-    border-radius: 20px;
-    border: 2px solid #A02424;
-    box-shadow:5px 5px 10px 0px #000000;
+    margin: 32px;
   }
   .div__main1 {
-    margin-bottom: 32px;
+  }
+  .img__main {
+    width: 16rem;
+  }
+  .img__main1 {
+    width: 16.5rem;
   }
 
   /*footer*/
@@ -149,7 +195,5 @@ body {
   .img__footer{
     width: 80px;
   }
-  .h5__footer {
-    padding-right: 40rem;
-  }
+  
 }
