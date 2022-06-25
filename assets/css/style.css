@@ -972,7 +972,7 @@ body {
   
     .divdiv__formulario {
       background-color: #FAB407;
-      width: 77.7rem;
+      width: 80rem;
       height: auto;
       border-radius: 6px;
     }
@@ -1050,5 +1050,21 @@ body {
     font-size: 32px;
     font-weight: bold;
     margin-right: 128px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .divdiv__formulario {
+    background-color: #FAB407;
+    width: 95%;
+    height: auto;
+    border-radius: 6px;
+  }
+  .area__formulario {
+    background-color: black;
+    margin-left: 24px;
+    border-top-left-radius: 10px;
+    margin-bottom: 20px;
+    width: 95%;
   }
 }
