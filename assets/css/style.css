@@ -163,7 +163,7 @@ body {
 
   .projeto {
     width: 240px;
-    visibility: none;
+    display: none;
   }
 
   .divdiv__formulario {
@@ -245,8 +245,8 @@ body {
     
     margin: 0;
     padding: 0;
+    width: 100%;
   }
-  
   .nav {
     position:fixed;
     top: 0;
@@ -324,11 +324,11 @@ body {
       margin-top: 0;
       display: flex;
       align-items: center;
+      width: 100%;
     }
   
     .p__main1 {
-      height: auto;
-      font-size: 12px;
+      font-size: 16px;
       text-align: top;
     }
   
@@ -338,7 +338,7 @@ body {
     }
 
     .none {
-      visibility: none;
+      visibility: collapse;
     }
   
     .habilidades__texto {
@@ -407,7 +407,7 @@ body {
   
     .projeto {
       width: 240px;
-      visibility: none;
+      display: none;
     }
   
     .divdiv__formulario {
@@ -496,6 +496,7 @@ body {
     
     margin: 0;
     padding: 0;
+    width: 100%;
   }
   
   .nav {
@@ -515,7 +516,7 @@ body {
     flex-direction: row;
     width: 100%;
     margin-left: 64px;
-    margin-right: 64px;
+    margin-right: 32px;
   }
   
   .img__nav {
@@ -526,7 +527,7 @@ body {
   .ul__divnav {
     display: flex;
     justify-content: space-evenly;
-    margin-right: 64px;
+    margin-right: 0px;
   }
   
   
@@ -534,12 +535,13 @@ body {
   .a__nav2,
   .a__nav3 {
     text-decoration: none;
-    font-size: 24px;
+    font-size: 12px;
     color: black;
     margin-right: 32px;
     padding-top: 60px;
     text-align: center;
     font-weight: bold;
+    width: 100%;
   }
   
   .a__nav{
@@ -574,13 +576,15 @@ body {
     .div__main {
       margin-top: 0;
       display: flex;
+      justify-content: space-between;
       align-items: center;
+      width: 100%;
     }
   
     .p__main1 {
-      height: auto;
       font-size: 20px;
       text-align: top;
+      width: 100%;
     }
   
     .img__main {
@@ -590,11 +594,11 @@ body {
     }
 
     .none {
-      visibility: none;
+      display: none;
     }
   
     .habilidades__texto {
-      font-size: 32px;
+      font-size: 24px;
       display: flex;
       flex-direction: column;
       flex-wrap: wrap ;
@@ -626,12 +630,18 @@ body {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      width: 1024px;
+      width: 100%;
+    }
+
+    .habilidaes__texto {
+      display: flex;
+      justify-content: space-between;
+
     }
   
     .bolinhas {
       display: flex;
-      width: 70%;
+      width: 40%;
       justify-content: space-between;
     }
   
@@ -668,7 +678,7 @@ body {
   
     .divdiv__formulario {
       background-color: #FAB407;
-      width: 72rem;
+      width: 27rem;
       height: auto;
       border-radius: 6px;
     }
@@ -687,7 +697,7 @@ body {
     .nome__formulario,
     .email__formulario,
     .mensagem__formulario {
-      font-size: 32px;
+      font-size: 24px;
     }
 
     
@@ -701,7 +711,7 @@ body {
       margin-left: 24px;
       border-top-left-radius: 10px;
       margin-bottom: 20px;
-      width: 65rem;
+      width: 23rem;
     }
   
     .div {
@@ -713,7 +723,7 @@ body {
       background-color: #DF0009;
       border: none;
       border-radius: 6px;
-      padding: 20px 80px;
+      padding: 10px 40px;
       font-size: 32px;
       margin-top: 32px;
       text-align: center;
@@ -849,8 +859,8 @@ body {
     }
   
     .img__main {
-      width: 135px;
-      height: 137px; 
+      width: 300px;
+      height: 300px; 
       margin-right: 64px;
     }
   
@@ -888,6 +898,8 @@ body {
       display: flex;
       flex-direction: column;
       line-height: 100%;
+      width: 100%;
+      margin-right: 32px;
       justify-content: space-between;
     }
     
@@ -900,7 +912,7 @@ body {
   
     .bolinhas {
       display: flex;
-      width: 70%;
+      width: 50%;
       justify-content: space-between;
     }
   
@@ -909,7 +921,7 @@ body {
     }
   
     .none1 {
-      visibility: visible;
+      display: inline;
     }
     .h2__main {
       margin-top: 32px;
@@ -931,12 +943,18 @@ body {
   
     .projeto {
       width: 100%;
-      display: none;
+      display: inline;
+      margin-right: 32px;
+    }
+
+    .projetos__main1 {
+      width: 60rem;
+      height: auto;
     }
   
     .divdiv__formulario {
       background-color: #FAB407;
-      width: 55rem;
+      width: 77.7rem;
       height: auto;
       border-radius: 6px;
     }
@@ -969,7 +987,7 @@ body {
       margin-left: 24px;
       border-top-left-radius: 10px;
       margin-bottom: 20px;
-      width: 48rem;
+      width: 70rem;
     }
   
     .div {
