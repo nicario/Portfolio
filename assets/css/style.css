@@ -1,261 +1,5 @@
 /* media 360 */
-@media screen and (max-width: 360px){
-*{
-  text-decoration: none;
-  list-style-type: none;
-  font-family: 'Roboto', sans-serif;
-  box-sizing: border-box;
-}
-body {
-  
-  margin: 0;
-  padding: 0;
-}
-
-.nav {
-  position:fixed;
-  top: 0;
-  background-color: #FAB407;
-  width: 100%;
-  height: 64px;
-  padding: 0;
-  margin: 0;
-}
-
-.div__nav{
-  display: flex;
-  justify-content: space-between;
-  align-items:flex-end;
-  flex-direction: row;
-  width: 100%;
-  margin-left: 36px;
-}
-
-.img__nav {
-  width: 40px;
-  height: 40px;
-  margin: 10px 0;
-}
-.ul__divnav {
-  display: flex;
-  justify-content: space-evenly;
-  margin-right: 64px;
-}
-
-
-.a__nav,
-.a__nav2,
-.a__nav3 {
-  text-decoration: none;
-  font-size: 12px;
-  color: black;
-  margin-right: 10px;
-  padding-top: 60px;
-  text-align: center;
-  font-weight: bold;
-}
-
-.a__nav{
-  color: #DF0009;
-  border-bottom: 2px solid #DF0009;
-}
-
-.img__header {
-  width: 100%;
-  height: 15rem;
-  padding: 0 16px;
-}
-
-/*main*/
-
-  .main {
-    margin-left: 32px;
-    margin-right: 32px;
-    margin-top: 96px;
-  }
-  
-  .h2 {
-    margin-top: 96px;
-  }
-  
-  .h2__main {
-    margin-bottom: 32px;
-    font-family: 'Staatliches', cursive;
-    font-weight: bold;
-    font-size: 36px;
-  }
-
-  .div__main {
-    margin-top: 0;
-    display: flex;
-    align-items: center;
-  }
-
-  .p__main1 {
-    width: 133.99px;
-    height: auto;
-    font-size: 12px;
-    text-align: top;
-  }
-
-  .img__main {
-    width: 135px;
-    height: 137px; 
-  }
-
-  .none {
-    display: none;
-  }
-
-  .habilidades__texto {
-    font-size: 16px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap ;
-    width: 119px;
-  }
-
-  .habilidades__bola {
-    background-color: #D9D9D9;
-    width: 10.72px;
-    height: 8.83px;
-    border-radius: 100%;
-    margin-right: 12.26px; 
-  }
-
-  .div__habilidades {
-    display: flex;
-    align-items: center;
-  }
-
-  .habilidades {
-    display: flex;
-    flex-direction: column;
-    line-height: 0%;
-  }
-  
-  .habilidades2 {
-    display: flex;
-    align-items: center;
-  }
-
-  .bolinhas {
-    display: flex;
-  }
-
-  .preto {
-    background-color: black;
-  }
-
-  .h2__main {
-    margin-top: 32px;
-    margin-bottom: 32px;
-  }  
-
-  .div__imagem {
-    display: flex;
-  }
-
-  .projetos__main {
-    width: 282.36px;
-    height: 271px;
-    margin-right: 32px;
-  }
-
-  .projeto {
-    width: 240px;
-    display: none;
-  }
-
-  .botao__projetos {
-    display: block;
-    margin-top: 32px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    background-color: #DF0009;
-    color: #D9D9D9;
-    font-size: 16px;
-    padding: 10px 40px;
-    border: none;
-    border-radius: 10px;
-  }
-
-  .divdiv__formulario {
-    background-color: #FAB407;
-    width: 15rem;
-    height: auto;
-    border-radius: 6px;
-  }
-
-  .input__formulario {
-    background: none;
-    border: none;
-    border-bottom: 1px solid black;
-    outline: none;
-    font-size: 15px;
-    letter-spacing: 2px;
-    margin-bottom: 12px;
-  }
-  
-  .area__formulario {
-    background-color: black;
-    margin-left: 24px;
-    border-top-left-radius: 10px;
-    margin-bottom: 20px;
-    width: 10rem;
-  }
-
-  .div {
-    margin-left: 12px;
-    margin-top:6px;
-  }
-
-  .botao {
-    background-color: #DF0009;
-    color: #D9D9D9;
-    display: block;
-    border: none;
-    border-radius: 6px;
-    padding: 10px 40px;
-    margin-top: 32px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 32px;
-  }
-
-  .formulario__botao {
-    display: flex;
-    flex-direction: column;
-  }
-
-/*footer*/
-
-.footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #FAB407;
-  height: 64px;
-}
-
-.img__footer {
-  width: 64px;
-  height: 64px;
-  margin: 10px;
-  margin-left: 32px;
-}
-
-.h5__footer {
-  font-size: 16px;
-  font-weight: bold;
-  margin-right: 64px;
-}
-}
-
-/* media 361 */
-@media screen and (min-width: 361px) {
+@media screen and (min-width: 360px){
   *{
     text-decoration: none;
     list-style-type: none;
@@ -266,8 +10,8 @@ body {
     
     margin: 0;
     padding: 0;
-    width: 100%;
   }
+  
   .nav {
     position:fixed;
     top: 0;
@@ -345,21 +89,23 @@ body {
       margin-top: 0;
       display: flex;
       align-items: center;
-      width: 100%;
     }
   
     .p__main1 {
-      font-size: 16px;
+      width: 100%;
+      padding-right: 5rem;
+      height: auto;
+      font-size: 12px;
       text-align: top;
     }
   
     .img__main {
-      width: 135px;
-      height: 137px; 
+      width: 100%;
+      height: auto; 
     }
-
+  
     .none {
-      visibility: collapse;
+      display: none;
     }
   
     .habilidades__texto {
@@ -367,7 +113,8 @@ body {
       display: flex;
       flex-direction: column;
       flex-wrap: wrap ;
-      margin-right: 32px;
+      width: 119px;
+      padding-right: 8rem;
     }
   
     .habilidades__bola {
@@ -381,27 +128,21 @@ body {
     .div__habilidades {
       display: flex;
       align-items: center;
-      justify-content: space-between;
     }
   
     .habilidades {
       display: flex;
       flex-direction: column;
       line-height: 0%;
-      justify-content: space-between;
     }
     
     .habilidades2 {
       display: flex;
       align-items: center;
-      justify-content: space-between;
-      width: 450px;
     }
   
     .bolinhas {
       display: flex;
-      width: 50%;
-      justify-content: space-between;
     }
   
     .preto {
@@ -416,25 +157,18 @@ body {
     .div__imagem {
       display: flex;
     }
-
-    .div__projetos {
-      width: 100%;
-    }
   
     .projetos__main {
-      width: 20rem;
-      height: auto;
-    }
-
-    .projetos__main1 {
-      width: 25rem;
+      width: 100%;
+      height: 100%;
+      margin-right: 32px;
     }
   
     .projeto {
       width: 240px;
       display: none;
     }
-
+  
     .botao__projetos {
       display: block;
       margin-top: 32px;
@@ -451,8 +185,8 @@ body {
   
     .divdiv__formulario {
       background-color: #FAB407;
-      width: 20rem;
-      height: 367px;
+      width: 100%;
+      height: auto;
       border-radius: 6px;
     }
   
@@ -464,12 +198,7 @@ body {
       font-size: 15px;
       letter-spacing: 2px;
       margin-bottom: 12px;
-    }
-
-    
-    .divformulario{
-      display: flex;
-      flex-direction: column;
+      width: 90%;
     }
     
     .area__formulario {
@@ -477,7 +206,7 @@ body {
       margin-left: 24px;
       border-top-left-radius: 10px;
       margin-bottom: 20px;
-      width: 15rem;
+      width: 90%;
     }
   
     .div {
@@ -488,12 +217,12 @@ body {
     .botao {
       background-color: #DF0009;
       color: #D9D9D9;
+      display: block;
       border: none;
       border-radius: 6px;
       padding: 10px 40px;
       margin-top: 32px;
       text-align: center;
-      display: block;
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 32px;
@@ -503,6 +232,7 @@ body {
       display: flex;
       flex-direction: column;
     }
+  
   /*footer*/
   
   .footer {
@@ -511,7 +241,6 @@ body {
     justify-content: space-between;
     background-color: #FAB407;
     height: 64px;
-    min-width: 100%;
   }
   
   .img__footer {
@@ -528,662 +257,169 @@ body {
   }
 }
 
-/* media 511 */
-@media screen and (min-width: 511px) {
-  *{
-    text-decoration: none;
-    list-style-type: none;
-    font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;
-  }
-  body {
-    
-    margin: 0;
-    padding: 0;
-    width: 100%;
-  }
-  
-  .nav {
-    position:fixed;
-    top: 0;
-    background-color: #FAB407;
-    width: 100%;
-    height: 64px;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .div__nav{
-    display: flex;
+@media screen and (min-width: 600px){
+  .div__main{
     justify-content: space-between;
-    align-items:flex-end;
-    flex-direction: row;
-    width: 100%;
-    margin-left: 64px;
-    margin-right: 32px;
   }
-  
-  .img__nav {
-    width: 60px;
-    height: 60px;
-    margin: 10px 0;
+  .p__main{
+    font-size: 48px;
+    padding-right: 10rem;
   }
-  .ul__divnav {
+  .img__main{
+    height: auto;
+    margin-left: 0!important;
+  }
+  .div__texto{
+    padding-right: 30%;
+    
+  }
+  .habilidades__texto{
+    font-size: 24px;
+  }
+  .habilidades__bola{
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .none{
+    display: inline;
+  }
+  .habilidades__texto{
+    padding-right: 15rem;
+  }
+  .h2__main{
+    font-size: 48px;
+  }
+  .projeto{
+    display: inline;
+  }
+  .projeto1 {
+    display: none;
+  }
+  .slides{
     display: flex;
-    justify-content: space-evenly;
-    margin-right: 0px;
   }
-  
-  
-  .a__nav,
-  .a__nav2,
-  .a__nav3 {
-    text-decoration: none;
-    font-size: 12px;
-    color: black;
-    margin-right: 32px;
-    padding-top: 60px;
-    text-align: center;
-    font-weight: bold;
+  .projetos__main{
     width: 100%;
   }
+}
   
-  .a__nav{
-    color: #DF0009;
-    border-bottom: 2px solid #DF0009;
-  }
-  
-  .img__header {
-    width: 100%;
-    height: 15rem;
-    padding: 0 16px;
-  }
-  
-  /*main*/
-  
+  @media screen and (min-width: 1200px){
+    .main {
+      margin-left: 48px;
+      margin-right: 48px;
+    }
+    .h2__main {
+      font-size: 78px;
+      margin: 96px 0;
+    }
+    .p__main1 {
+      width: 55%;
+      height: auto;
+      font-size: 32px;
+      text-align: top;
+    }
+    .img__main {
+        width: 100%;
+        height: auto; 
+      }
+    .habilidades {
+      line-height: 200%;
+    }
+    .habilidades__texto {
+      font-size: 48px;
+      display: flex;
+      padding-right: 3rem;
+    }
+
+    .div__texto{
+      padding-right: 15rem;
+    }
+    .none {
+      display: inline;
+    }
+    .bolinhas {
+      width: 100%;
+      height: 100%;
+      flex-direction: row;
+      
+    }
+    .habilidades__bola {
+      width: 50px;
+      height: 50px;
+      margin-right: 20px;
+    }
+    .div__habilidades{
+      width: 100%;
+    }
+    .habilidades2 {
+      width: 100%;
+      justify-content: space-between;
+    }
+    .projeto{
+      display: inline;
+    }
+    .slides {
+      display: flex;
+      justify-content: space-between;
+    }
+    .projetos__main{
+      width: 100%;
+    }
+    .projetos1{
+      display: inline;
+    }
+    .botao__projetos {
+      display: none;
+    }
+    .divdiv__formulario {
+      width: 100%;
+    }
+    .formulario {
+      width: 100%;
+    }
+    .div{
+      font-size: 32px;
+    }
+    .input__formulario{
+      width: 95%;
+    }
+    .area__formulario{
+      width: 95%;
+    }
+    .div__botao {
+      width: 100%;
+    }
+    .botao {
+      width: 30%;
+      height: 5rem;
+      font-size: 40px;
+    }
+}
+
+  @media screen and (min-width: 1780px){
     .main {
       margin-left: 64px;
       margin-right: 64px;
-      margin-top: 96px;
     }
-    
-    .h2 {
-      margin-top: 96px;
-    }
-    
-    .h2__main {
-      font-family: 'Staatliches', cursive;
-      font-weight: bold;
-      font-size: 64px;
-    }
-  
-    .div__main {
-      margin-top: 0;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      width: 100%;
-    }
-  
-    .p__main1 {
-      font-size: 20px;
-      text-align: top;
-      width: 100%;
-    }
-  
-    .img__main {
-      width: 300px;
-      height: 300px; 
-      margin-right: 64px;
-    }
-
-    .none {
-      display: none;
-    }
-  
-    .habilidades__texto {
-      font-size: 24px;
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap ;
-      margin-right: 32px;
-    }
-  
-    .habilidades__bola {
-      background-color: #D9D9D9;
-      width: 10.72px;
-      height: 8.83px;
-      border-radius: 100%;
-      margin-right: 12.26px; 
-    }
-  
-    .div__habilidades {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-  
-    .habilidades {
-      display: flex;
-      flex-direction: column;
-      line-height: 100%;
-      justify-content: space-between;
-      width: 100%;
-      margin-right: 64px;
-    }
-    
-    .habilidades2 {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      width: 100%;
-    }
-
-    .habilidaes__texto {
-      display: flex;
-      justify-content: space-between;
-
-    }
-  
-    .bolinhas {
-      display: flex;
-      width: 40%;
-      justify-content: space-between;
-    }
-  
-    .preto {
-      background-color: black;
-    }
-  
-    .h2__main {
-      margin-top: 96px;
-      margin-bottom: 96px;
-    }  
-  
-    .div__imagem {
-      display: flex;
-    }
-
-    .div__projetos {
-      width: 100%;
-    }
-  
-    .projetos__main {
-      width: 25rem;
-      height: auto;
-    }
-
-    .projetos__main1 {
-      width: 30rem;
-    }
-  
-    .projeto {
-      margin-right: 32px;
-      display: none;
-    }
-
-    .botao__projetos {
-      display: block;
-      margin-top: 32px;
-      margin-left: auto;
-      margin-right: auto;
-      text-align: center;
-      background-color: #DF0009;
-      color: #D9D9D9;
-      font-size: 32px;
-      padding: 10px 40px;
-      border: none;
-      border-radius: 10px;
-    }
-  
-    .divdiv__formulario {
-      background-color: #FAB407;
-      width: 31.5rem;
-      height: auto;
-      border-radius: 6px;
-    }
-  
-    .input__formulario {
-      background: none;
-      border: none;
-      border-bottom: 1px solid black;
-      outline: none;
-      font-size: 24px;
-      width: 90%;
-      letter-spacing: 2px;
-      margin-bottom: 12px;
-    }
-
-    .nome__formulario,
-    .email__formulario,
-    .mensagem__formulario {
+    .a__nav,
+    .a__nav2,
+    .a__nav3 {
       font-size: 24px;
     }
-
-    
-    .divformulario{
-      display: flex;
-      flex-direction: column;
+    .habilidades__texto{
+      padding-right: 35rem;
     }
-    
-    .area__formulario {
-      background-color: black;
-      margin-left: 24px;
-      border-top-left-radius: 10px;
-      margin-bottom: 20px;
-      width: 25rem;
+    .habilidades__bola{
+      margin-right: 40px;
     }
-  
-    .div {
-      margin-left: 12px;
-      margin-top:6px;
-    }
-  
-    .botao {
-      display: block;
-      background-color: #DF0009;
-      color: #D9D9D9;
-      border: none;
-      border-radius: 6px;
-      padding: 10px 40px;
-      font-size: 32px;
-      margin-top: 32px;
-      text-align: center;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 32px;
-    }
-  
-    .formulario__botao {
-      display: flex;
-      flex-direction: column;
-    }
-  /*footer*/
-  
-  .footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #FAB407;
-    height: 64px;
-  }
-  
-  .img__footer {
-    width: 64px;
-    height: 64px;
-    margin: 10px;
-    margin-left: 32px;
-  }
-  
-  .h5__footer {
-    font-size: 32px;
-    font-weight: bold;
-    margin-right: 128px;
-  }
-}
-
-/* media 710 */
-@media screen and (min-width: 710px) {
-  .divdiv__formulario {
-    background-color: #FAB407;
-    width: 52rem;
-    height: auto;
-    border-radius: 6px;
-  }
-  .area__formulario {
-    background-color: black;
-    margin-left: 24px;
-    border-top-left-radius: 10px;
-    margin-bottom: 20px;
-    width: 48rem;
-  }
-
-  .projetos__main1 {
-    width: 40rem;
-  }
-}
-
-/* media 1025 */
-@media screen and (min-width: 1025px){
-  *{
-    text-decoration: none;
-    list-style-type: none;
-    font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;
-  }
-  body {
-    
-    margin: 0;
-    padding: 0;
-  }
-  
-  .nav {
-    position:fixed;
-    top: 0;
-    background-color: #FAB407;
-    width: 100%;
-    height: 64px;
-    padding: 0;
-    margin: 0;
-    z-index: 20;
-  }
-  
-  .div__nav{
-    display: flex;
-    justify-content: space-between;
-    align-items:flex-end;
-    flex-direction: row;
-    width: 100%;
-    margin-left: 36px;
-    margin-right: 36px;
-  }
-  
-  .img__nav {
-    width: 40px;
-    height: 40px;
-    margin: 10px 0;
-  }
-  .ul__divnav {
-    display: flex;
-    justify-content: space-evenly;
-    margin-right: 64px;
-  }
-  
-  
-  .a__nav,
-  .a__nav2,
-  .a__nav3 {
-    text-decoration: none;
-    font-size: 24px;
-    color: black;
-    margin-right: 32px;
-    padding-top: 60px;
-    text-align: center;
-    font-weight: bold;
-  }
-  
-  .a__nav{
-    color: #DF0009;
-    border-bottom: 2px solid #DF0009;
-  }
-  
-  .img__header {
-    width: 100%;
-    height: 15rem;
-    padding: 0 16px;
-  }
-  
-  /*main*/
-  
-    .main {
-      margin-left: 32px;
-      margin-right: 32px;
-      margin-top: 96px;
-    }
-    
-    .h2 {
-      margin-top: 96px;
-    }
-    
-    .h2__main {
-      margin-bottom: 32px;
-      font-family: 'Staatliches', cursive;
-      font-weight: bold;
-      font-size: 64px;
-    }
-  
-    .div__main {
-      margin-top: 0;
-      display: flex;
-      align-items: center;
-    }
-  
-    .p__main1 {
+    .slide {
+      width: 100%;
       height: auto;
-      font-size: 16px;
-      text-align: top;
     }
-  
-    .img__main {
-      width: 300px;
-      height: 300px; 
-      margin-right: 64px;
+    .projetos__main{
+      padding-left: 24px;
     }
-  
-    .habilidades__texto {
-      font-size: 32px;
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap ;
-      margin-right: 32px;
-    }
-  
-    .habilidades__bola {
-      background-color: #D9D9D9;
-      width: 10.72px;
-      height: 8.83px;
-      border-radius: 100%;
-      margin-right: 12.26px; 
-    }
-
-    .article2__main {
-      width: 100%;
-    }
-  
-    .div__habilidades {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-  
-    .habilidades {
-      display: flex;
-      flex-direction: column;
-      line-height: 100%;
-      width: 100%;
-      margin-right: 32px;
-      justify-content: space-between;
-    }
-    
-    .habilidades2 {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      width: 100%;
-    }
-  
-    .bolinhas {
-      display: flex;
-      width: 50%;
-      justify-content: space-between;
-    }
-  
-    .preto {
-      background-color: black;
-    }
-  
-    .h2__main {
-      margin-top: 32px;
-      margin-bottom: 32px;
-    }  
-  
-    .div__imagem {
-      display: flex;
-    }
-
-    .div__projetos {
-      width: 100%;
-      margin-bottom: 128px;
-    }
-
-    .slides {
-      display: flex;
-    }
-  
-    .projetos__main {
-      width: 20em;
-      height: 20rem;
-    }
-
-    .projeto {
-    margin-right: 32px;
-    display: block;
-    }
-
-    .projetos__main1{
-      width: 23rem;
-      height: 20rem;
-    }
-  
-    .divdiv__formulario {
-      background-color: #FAB407;
-      width: 65rem;
-      height: auto;
-      border-radius: 6px;
-    }
-  
-    .input__formulario {
-      background: none;
-      border: none;
-      border-bottom: 1px solid black;
-      outline: none;
-      font-size: 24px;
-      width: 90%;
-      letter-spacing: 2px;
-      margin-bottom: 12px;
-    }
-
-    .nome__formulario,
-    .email__formulario,
-    .mensagem__formulario {
-      font-size: 32px;
-    }
-
-    
-    .divformulario{
-      display: flex;
-      flex-direction: column;
-    }
-    
-    .area__formulario {
-      background-color: black;
-      margin-left: 24px;
-      border-top-left-radius: 10px;
-      margin-bottom: 20px;
-      width: 60rem;
-    }
-  
-    .div {
-      margin-left: 12px;
-      margin-top:6px;
-    }
-  
-    .botao {
-      background-color: #DF0009;
-      border: none;
-      border-radius: 6px;
-      padding: 20px 80px;
-      font-size: 32px;
-      margin-top: 32px;
-      text-align: center;
-      margin-left: 35%;
-      margin-bottom: 32px;
-    }
-  
-    .formulario__botao {
-      display: flex;
-      flex-direction: column;
-    }
-  /*footer*/
-  
-  .footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #FAB407;
-    height: 64px;
-  }
-  
-  .img__footer {
-    width: 64px;
-    height: 64px;
-    margin: 10px;
-    margin-left: 32px;
-  }
-  
-  .h5__footer {
-    font-size: 32px;
-    font-weight: bold;
-    margin-right: 128px;
-  }
-}
-
-/* media 1500 */
-@media screen and (min-width: 1500px) {
-  .divdiv__formulario {
-    background-color: #FAB407;
-    width: 95%;
-    height: auto;
-    border-radius: 6px;
-  }
-  .area__formulario {
-    background-color: black;
-    margin-left: 24px;
-    border-top-left-radius: 10px;
-    margin-bottom: 20px;
-    width: 95%;
-  }
-
-  .projetos__main {
-    width: 35rem;
-    height: auto;
-  }
-
-  .projetos__main1 {
-    width: 40rem;
-    height: auto;
-  }
-}
-
-/*Página de projetos Twitter*/
-
-.img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.img__main2 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 96px;
-  width: 90%;
-  margin-bottom: 32px;
-}
-
-  .p__main {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 32px;
-}
-
-.img__main {
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 32px;
-  width: 40%;
-  margin-right: 12px;
-}
-
-.img__projetos{
-  display: flex;
-  justify-content: space-between;
-}
-
-.div__footer {
-  display: flex;
-  align-items: center;
 }

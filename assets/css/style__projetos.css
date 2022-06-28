@@ -1,0 +1,143 @@
+/*Página de projetos Twitter*/
+
+*{
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+body {
+  
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  background-color: #FAB407;
+  width: 100%;
+  height: 64px;
+  position: fixed;
+  top: 0;
+}
+
+.img__nav{
+  width: 64px;
+  height: auto;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.main{
+  margin-left: 48px;
+  margin-right: 48px;
+}
+
+.h1__main {
+  font-size: 64px;
+  font-family: 'Staatliches';
+  margin-top: 96px;
+  margin-bottom: 32px;
+}
+
+.img__main2{
+  width: 100%;
+  height: 15rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.img__projetos{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 32px;
+  width: 100%;
+  height: auto;
+}
+
+.p__main{
+  margin-bottom: 32px;
+  text-align: justify;
+  width: 100%;
+  height: auto;
+}
+
+.h3__main{
+  font-family: 'Staatliches';
+  font-size: 20px;
+}
+
+.img__main{
+  width: 8rem;
+  height: auto;
+  margin-bottom: 32px;
+}
+
+.footer{
+  background-color: #FAB407;
+  width: 100%;
+  height: 64px;
+}
+
+.div__footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 48px;
+  margin-left: 48px;
+}
+
+.img__footer{
+  width: 40px;
+  height: 40px;
+}
+
+.img2{
+  height: 8rem;
+}
+
+@media screen and (min-width: 1200px){
+  .img__main2{
+    width: 100%;
+    height: 20rem;
+  }
+  .p__main{
+    font-size: 24px;
+  }
+  .img__main{
+    width: 30%;
+  }
+  .img2{
+    height: 20rem;
+  }
+}
+
+@media screen and (min-width: 1350px){
+  .img2{
+    height: 30rem;
+  }
+  .img__main{
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1500px){
+  .img2{
+    height: 35rem;
+  }
+}
+
+@media screen and (min-width: 1700px){
+  .img2{
+    height: 40rem;
+  }
+}
+
+@media screen and (min-width: 1500px){
+  .img2{
+    height: 45rem;
+  }
+}
